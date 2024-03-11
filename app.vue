@@ -9,6 +9,20 @@ const isDark = computed({
   },
 });
 const tags = ["Nuxt", "Vue", "React", "Next", "Angular"];
+
+useHead({
+  title: "Jesse Bakels",
+  meta: [
+    {
+      name: "description",
+      property: "og:description",
+      content: "Frontend Developer @ Jumbo Supermarkten",
+    },
+    { property: "og:title", content: "Jesse Bakels" },
+    { property: "og:image", content: "https://www.jessebakels.nl/avatar.jpeg" },
+    { property: "og:url", content: "https://www.jessebakels.nl" },
+  ],
+});
 </script>
 <template>
   <NuxtLayout>
