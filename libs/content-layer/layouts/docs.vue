@@ -48,7 +48,6 @@ const isDark = computed({
       @click="isDark = !isDark"
     />
   </div>
-  <div class="flex p-4 justify-center items-center min-h-screen">
-    <slot />
-  </div>
+
+  <slot />
 </template>
