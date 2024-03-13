@@ -39,7 +39,7 @@ useHead({
 
       <template #footer>
         <div class="flex align-items justify-center">
-          <span class="p-text-secondary">Last update March 11th 2024</span>
+          <span class="p-text-secondary">Last update March 13th 2024</span>
         </div>
       </template>
     </UCard>
