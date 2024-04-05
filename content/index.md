@@ -20,7 +20,7 @@
   #footer
       ::div{class="flex align-items justify-center"}
         ::span{class="p-text-secondary"}
-          Last update March 13th 2024
+          Last update April 5th 2024
         ::
       ::
   ::

@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.2.0",
-    "@nuxt/ui": "^2.14.2",
+    "@nuxt/ui": "^2.15.1",
     "@nuxthq/studio": "^1.0.13",
-    "nuxt": "^3.10.3"
+    "nuxt": "^3.11.2"
   }
 }
