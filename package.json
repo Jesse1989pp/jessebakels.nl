@@ -19,6 +19,7 @@
   "devDependencies": {
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/ui": "^2.15.1",
-    "nuxt": "^3.11.2"
+    "nuxt": "^3.11.2",
+    "vite": ">=5.1.7"
   }
 }
