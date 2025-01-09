@@ -1,12 +1,17 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxthq/studio"],
-  extends: ["./libs/content-layer"],
+  app: {
+    head: {
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
+    },
+  },
+  modules: ["@nuxt/ui", "@nuxt/content"],
   colorMode: {
     preference: "dark",
   },
   ui: {
     global: true,
   },
+  content: {},
+  compatibilityDate: "2025-01-09",
 });
