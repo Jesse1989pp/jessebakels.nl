@@ -45,6 +45,8 @@ useSeoMeta({
           v-if="cv"
           class="cv-document w-full rounded-md print:rounded-none print:shadow-none"
           :ui="{
+            divide:
+              'divide-y divide-gray-200 dark:divide-gray-800 print:divide-y-0',
             body: { padding: 'p-6 sm:p-8 md:p-10 print:p-6 print:pt-4' },
             header: { padding: 'p-6 sm:p-8 md:p-10 print:p-6 print:pb-4' },
             footer: { padding: 'p-6 sm:p-8 md:p-10 print:p-6 print:pt-4' },
@@ -113,7 +115,7 @@ useSeoMeta({
               </a>
               <span aria-hidden="true">·</span>
               <a
-                href="tel:0629514391"
+                href="tel:0629514301"
                 class="flex flex-wrap flex-row items-center gap-1"
               >
                 <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
@@ -124,7 +126,7 @@ useSeoMeta({
                     clip-rule="evenodd"
                   />
                 </svg>
-                06-29514391
+                06-29514301
               </a>
             </footer>
           </template>
@@ -322,7 +324,7 @@ useSeoMeta({
   .cv-header {
     margin-bottom: 7mm;
     padding-bottom: 4mm;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 0 !important;
   }
 
   .cv-header h1 {
@@ -382,7 +384,7 @@ useSeoMeta({
   .cv-footer {
     margin-top: 5mm;
     padding-top: 4mm;
-    border-top: 1px solid #e5e7eb;
+    border-top: 0 !important;
     color: #4b5563 !important;
     font-size: 9.5pt;
   }
