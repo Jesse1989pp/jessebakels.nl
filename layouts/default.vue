@@ -10,7 +10,7 @@ const isDark = computed({
 });
 </script>
 <template>
-  <div class="fixed flex gap-3 top-2 right-2 md:right-10 md:top-10">
+  <div class="fixed flex gap-3 top-2 right-2 md:right-10 md:top-10 z-10">
     <UButton
       to="https://www.linkedin.com/in/jessebakels"
       target="_blank"
